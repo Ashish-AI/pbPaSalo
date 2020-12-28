@@ -49,8 +49,46 @@ h4{
 }
 .count-api{
   max-width: 100%;
-  padding: 100px 30px;
+  padding: 80px 30px;
 }
+.first-btn{
+  margin-right: 5px;
+}
+.second-btn{
+  margin-left: 5px;
+}
+
+.video-responsive{
+    overflow:hidden;
+    /* padding-bottom:10%; */
+    position:relative;
+    /* height:500px; */
+}
+.video-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+
+
+@media only screen and (max-width: 768px) {
+  .video-responsive{
+      overflow:hidden;
+      padding-bottom:10%;
+      position:relative;
+      height:200px;
+  }
+  .video-responsive iframe{
+      left:0;
+      top:0;
+      height:100%;
+      width:100%;
+      position:absolute;
+  }
+}
+
 .colm1{
 align-items: center;
 text-align: center;
